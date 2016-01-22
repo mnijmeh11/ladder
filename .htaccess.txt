@@ -1,0 +1,8 @@
+php_flag session.auto_start 0
+php_flag display_errors 1
+
+<IfModule mod_php5.c>
+    #Session timeout
+    php_value session.cookie_lifetime 900
+    php_value session.gc_maxlifetime 900
+</IfModule>

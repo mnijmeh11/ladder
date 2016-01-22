@@ -1,0 +1,55 @@
+/* The hint to Hide and Show  Did not want to use popup boxes like in alert*/
+.hint {	
+   	display: none;
+    position: absolute;
+    text-decoration-color: #FF0000;
+    text-decoration-style: wavy;
+    font-weight: bolder;
+    right: -250px;
+    width: 200px;
+    margin-top: -4px;
+    border: 2px solid #c93;
+    padding: 10px 12px;
+    border-radius: 23px;
+   box-shadow: 15px 12px 1px #800000;
+   background: repeating-linear-gradient(-45deg, #FF0066, #FF3366 5px, #FF6666 5px, #FF9966 10px);
+    left: -20px;
+    top: 210px;
+    z-index: 1;
+}
+/* The pointer image is hadded by using another span used for right hand hint*/
+.hint .hint-pointer {
+	position: center;
+    left: 5px;
+    top: 5px;
+    width: 10px;
+    height: 19px;
+ }   
+   /* The hint2 to Hide and Show  Did not want to use popup boxes like in alert right hand hint*/
+.hints {	
+   	display: none;
+    position: absolute;
+    text-decoration-color: #FF0000;
+    text-decoration-style: wavy;
+    font-weight: bolder;
+    right: 450px;
+    width: 200px;
+    margin-top: -4px;
+    border: 2px solid #c93;
+    padding: 10px 12px;
+    border-radius: 23px;
+   box-shadow: 15px 15px 0px #800000;
+   background: repeating-linear-gradient(-45deg, #339966, #33CC66 5px, #33FF66 5px, #00CC66 10px);
+    left: 400px;
+    top: 210px;
+    z-index: 1;
+}
+/* The pointer image is hadded by using another span */
+.hints .hint-pointer 
+{
+	position: center;
+    left: 5px;
+    top: 5px;
+    width: 10px;
+    height: 19px;
+ } 

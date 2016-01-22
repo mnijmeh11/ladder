@@ -1,0 +1,89 @@
+   * { padding: 0; margin: 0; }
+  table.playerlists { 
+    font-family: verdana, arial, helvetica, sans-serif;
+    cellspacing: 0; 
+    border-collapse: collapse; 
+    width: 640px;    
+    }
+  table.playerlists td { 
+    border-left: 1px solid #999; 
+    border-top: 1px solid #999;  
+    padding: 2px 4px;
+      font-size: 11px;
+    }
+  table.playerlists tr:first-child td {
+    border-top: none;
+  }
+  table.playerlists th { 
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+    padding: 2px 4px;
+    background: #6b6164;
+    color: white;
+    font-variant: small-caps;
+    font-size: 15px;
+    }
+  table.playerlists td { background: #eee; overflow: hidden; }
+  
+  div.scrollableContainer { 
+    position: relative; 
+    width: 620px; 
+    padding-top: 2em; 
+    margin: 40px;    
+    border: 1px solid #999;
+    background: #6b6164;
+    }
+  div.scrollingArea { 
+    height:auto; 
+    overflow: scroll; 
+    }
+
+  table.scrollable thead tr {
+    left: -1px; top: 0;
+    position: absolute;
+    }
+  table.playerlists .name     div { width: 90px;}
+  table.playerlists .rank div { width: 50px;}
+  table.playerlists .username    div { width: 90px;}
+  table.playerlists .email  div { width: 100px;}
+  table.playerlists .challenger     div { width: 90px;}
+  table.playerlists .challengee div{ width: 90px;}
+  table.playerlists .issued    div { width: 90px;}
+  table.playerlists .accepted  div { width: 90px;}
+  table.playerlists .scheduled  div{ width: 80px; }
+  table.playerlists .winner     div { width: 90px;}
+  table.playerlists .loser  div{ width: 90px;}
+  table.playerlists .played    div { width: 90px;}
+  table.playerlists .won  div { width: 90px;}
+  table.playerlists .lost  div { width: 90px;}
+  table.playerlists .winner     div { width: 90px;}
+  table.playerlists .loser div { width: 90px;}
+  table.playerlists .played    div { width: 90px;}
+  table.playerlists .number  div { width: 90px;}
+  table.playerlists .winner_score  div { width: 90px;}
+  table.playerlists .loser_score  div { width: 90px;}
+  table.playerlists .space  div { width: 90px; }
+  table.playerlists .title1  div { width: 90px;}
+
+  table.playerlists td.rank { background: #00bfff; }
+  table.playerlists td.email  { background: #00ffff; }
+  table.playerlists td.name     { background: #00ffff; }  
+  table.playerlists td.username    { background: #00ffbf; }
+  table.playerlists td.challengee { background: #00bfff; }
+  table.playerlists td.email  { background: #00ffff; }
+  table.playerlists td.challenger     { background: #00ffff; }  
+  table.playerlists td.issued    { background: #00ffbf; }
+  table.playerlists td.scheduled    { background: #00ffbf; }
+  table.playerlists td.challengee { background: #00bfff; }
+  table.playerlists td.email  { background: #00ffff; }
+  table.playerlists td.challenger     { background: #00ffff; }  
+  table.playerlists td.issued    { background: #00ffbf; }
+  table.playerlists td.scheduled    { background: #00ffbf; }
+  table.playerlists td.winner { background: #00bfff; }
+  table.playerlists td.loser  { background: #00ffff; }
+  table.playerlists td.played     { background: #00ffff; }  
+  table.playerlists td.number    { background: #00ffbf; }
+  table.playerlists td.winner_score    { background: #00ffbf; }
+  table.playerlists td.loser_score    { background: #00ffbf; }
+  table.playerlists td.space    { background: #00ffbf; }
